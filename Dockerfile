@@ -14,6 +14,9 @@ RUN curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - &
     apt-get update &&  \
     apt-get install -y google-cloud-sdk
 
+# Python App Engine component
+RUN apt-get install google-cloud-sdk-app-engine-python
+
 # pip
 RUN curl https://bootstrap.pypa.io/get-pip.py | python
 
