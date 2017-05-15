@@ -40,4 +40,4 @@ This container is auto-built on [docker hub]
 [Google Cloud SDK]: https://cloud.google.com/sdk/
 [SCALEBOX]: http://www.scalebox.it/en/home
 [atuin-gulp]: https://github.com/xcash/atuin-gulp
-[docker hub]: https://hub.docker.com/r/nyxgear/atuin-gulp/
+[docker hub]: https://hub.docker.com/r/nyxgear/gae-atuin-devenv/ 
