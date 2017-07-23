@@ -3,8 +3,8 @@ FROM debian:latest
 MAINTAINER nyxgear <dev@nyxgear.com>
 
 # dependencies
-RUN apt-get update && \
-    apt-get install -y curl apt-transport-https
+RUN apt-get update && apt-get upgrade -y && \
+    apt-get install -y curl apt-transport-https gnupg2
 
 # Google Cloud SDK
 RUN echo "deb https://packages.cloud.google.com/apt cloud-sdk-"$(grep "VERSION=" /etc/os-release | sed 's/.*(//; s/).*//')" main" \
