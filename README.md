@@ -27,7 +27,7 @@ Basically, it contains an up to date version of the [Google Cloud SDK] and, used
 - keep up to date your project's dependencies
 
 **It's highly recommended to use this container through the execution of the complete development environment
-of GAE Atuin also made up by the [atuin-gulp] container.**
+of GAE Atuin also made up by the [atuin-tools] container.**
 
 Look at the main page of [GAE Atuin] for more information. 
 
@@ -36,8 +36,8 @@ Look at the main page of [GAE Atuin] for more information.
 
 This container is auto-built on [docker hub]
 
-[GAE Atuin]: https://bitbucket.org/scalebox/gae-atuin
+[SCALEBOX]: https://www.scalebox.it
+[GAE Atuin]: https://github.com/atuinframework/gae-atuin
 [Google Cloud SDK]: https://cloud.google.com/sdk/
-[SCALEBOX]: http://www.scalebox.it/en/home
-[atuin-gulp]: https://github.com/xcash/atuin-gulp
-[docker hub]: https://hub.docker.com/r/nyxgear/gae-atuin-devenv/ 
+[atuin-tools]: https://github.com/atuinframework/atuin-tools
+[docker hub]: https://hub.docker.com/r/atuinframework/atuin-tools/
