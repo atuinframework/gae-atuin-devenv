@@ -40,4 +40,4 @@ This container is auto-built on [docker hub]
 [GAE Atuin]: https://github.com/atuinframework/gae-atuin
 [Google Cloud SDK]: https://cloud.google.com/sdk/
 [atuin-tools]: https://github.com/atuinframework/atuin-tools
-[docker hub]: https://hub.docker.com/r/atuinframework/atuin-tools/
+[docker hub]: https://hub.docker.com/r/atuinframework/gae-atuin-devenv/
