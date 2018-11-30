@@ -17,6 +17,9 @@ RUN curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - &
 # Python App Engine component
 RUN apt-get install -y google-cloud-sdk-app-engine-python google-cloud-sdk-app-engine-python-extras google-cloud-sdk-datastore-emulator
 
+# Additianal python modules
+RUN apt-get install -y python-pil
+
 # cleanup build tools to save image footprint
 RUN apt-get remove -y curl apt-transport-https && \
     apt-get autoremove -y && \
