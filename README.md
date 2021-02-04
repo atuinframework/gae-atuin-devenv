@@ -1,4 +1,5 @@
 # GAE Atuin development environment: gae-atuin-devenv
+# Python2 legacy
 
 This docker container is meant to be used as the development environment for the [SCALEBOX]'s [GAE Atuin] framework.
 
