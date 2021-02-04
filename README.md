@@ -1,4 +1,4 @@
-# GAE Atuin development environment: gae-atuin-devenv
+# GAE Python3 Atuin development environment: gae-atuin-devenv
 
 This docker container is meant to be used as the development environment for the [SCALEBOX]'s [GAE Atuin] framework.
 
@@ -27,7 +27,7 @@ Basically, it contains an up to date version of the [Google Cloud SDK] and, used
 - keep up to date your project's dependencies
 
 **It's highly recommended to use this container through the execution of the complete development environment
-of GAE Atuin also made up by the [atuin-tools] container.**
+of GAE Atuin alongside the [atuin-tools] container.**
 
 Look at the main page of [GAE Atuin] for more information. 
 
